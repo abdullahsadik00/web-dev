@@ -1,91 +1,102 @@
  /* delete the following line if no text is used */
  /* edit the line if you wanna use other fonts */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
-*{
-  margin: 0;
-  color: #fff;
-}
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+ * {
+   margin: 0;
+   color: #fff;
+ }
+
  /* use only the available space inside the 400x400 frame */
-.frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
-  height: 400px;
-  margin-top: -200px;
-  margin-left: -200px;
-  border-radius: 2px;
-	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
-	overflow: hidden;
-  background: #fff;
-  color: #333;
-	font-family: "Courier New", "Courier", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-    background-image:linear-gradient(to bottom right,#4DB3C4,#4446A3) ;
-} 
+ .frame {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   margin-top: -200px;
+   margin-left: -200px;
+   border-radius: 2px;
+   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   background: #fff;
+   color: #333;
+   font-family: "Courier New", "Courier", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-image: linear-gradient(to bottom right, #4DB3C4, #4446A3);
+ }
 
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-.number{
-  display: flex; 
-  margin-right: -35px; 
-}
-.one-stroke{
-  width: 25px;
-  height: 50px;
-  background: #fff;
-  border-radius: 4px;
-  transform: rotate(40deg);
-  position: relative;
-  left: 8.5px;
-  top: 2px;
-}
-.one{
-  width: 25px;
-  height: 100px;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
-  z-index: 9;
+ .center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
 
-}
-.zero{
-  width: 50px;
-  height: 50px;
-  /* background: #fff; */
-  border-radius: 50%;
-  border: 25px solid #fff;		box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
-position: relative;
-left: -10px;
-z-index: 5;
-}
-.two{
-  width: 50px;
-  height: 50px;
-  /* background: #fff; */
-  border-radius: 50%;
-  border: 25px solid #fff;		box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
-position: relative;
-left: -30px;
-}
+ .number {
+   display: flex;
+   margin-right: -35px;
+ }
 
-h2{
-  font-size: 85px;
-text-align: center;
-position: relative;
-right: -4px;
-margin-bottom: -16px;
-    margin-top: -7px;
-}
-p{
-  font-size: 26px;text-align: center; 
-  position: relative;
-right: -2.5px;
-font-weight: bolder;
-}
+ .one-stroke {
+   width: 25px;
+   height: 50px;
+   background: #fff;
+   border-radius: 4px;
+   transform: rotate(40deg);
+   position: relative;
+   left: 8.5px;
+   top: 2px;
+ }
+
+ .one {
+   width: 25px;
+   height: 100px;
+   background: #fff;
+   border-radius: 4px;
+   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+   z-index: 9;
+
+ }
+
+ .zero {
+   width: 50px;
+   height: 50px;
+   /* background: #fff; */
+   border-radius: 50%;
+   border: 25px solid #fff;
+   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+   position: relative;
+   left: -10px;
+   z-index: 5;
+ }
+
+ .two {
+   width: 50px;
+   height: 50px;
+   /* background: #fff; */
+   border-radius: 50%;
+   border: 25px solid #fff;
+   box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+   position: relative;
+   left: -30px;
+ }
+
+ h2 {
+   font-size: 85px;
+   text-align: center;
+   position: relative;
+   right: -4px;
+   margin-bottom: -16px;
+   margin-top: -7px;
+ }
+
+ p {
+   font-size: 26px;
+   text-align: center;
+   position: relative;
+   right: -2.5px;
+   font-weight: bolder;
+ }
