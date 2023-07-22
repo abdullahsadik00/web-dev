@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="frame">
+    <div class="center">
+            <a href="#" class="burger-container">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </a>
+    </div>
+    <script>
+      document.querySelector('.burger-container').addEventListener('click', () => {
+    document.querySelector('.burger-container').classList.toggle('close');
+})
+    </script>
+</body>
+</html>
