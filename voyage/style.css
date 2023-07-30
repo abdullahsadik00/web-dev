@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.logo{
+    width: 120px;
+        margin-right: 20px;
+
+}
+.logo img{
+    width: 100%;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.hero{
+    height: 80vh;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+}
+.hero__hero-left{
+    width: 55%;
+}
+.hero__hero-left__hero-text h2 {
+    color: #059669;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hero__hero-left__hero-text h2 span{
+    color: #171717;
+}
+.hero__hero-left__hero-description p{
+margin: 10px 0 20px 0;
+color: #737373;
+font-size: 20px;
+}
+.hero__hero-left__cta{
+    display: flex;
+}
+.hero__hero-left__cta__apply button , .hero__hero-left__cta__learn button{
+    border: none;
+    padding: 15px 40px;
+    border-radius: 4px;
+    background-color: #059669;
+    color: #fff;
+    margin: 10px 15px 10px 0;
+}
+.hero__hero-right{
+    width: 40%;
+}
+.hero__hero-right img{
+    width: 100%;
+    z-index: 4;
+    object-fit: cover;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100% )
+}
+.companies{
+    margin: 40px 0;
+    background-color: #fff7ed;
+    padding: 45px 25px;
+}
+.companies__text h2{
+font-weight: bolder;font-size: 38px;
+text-align: center;
+}
+.companies__description p{
+    color: #737373;
+    font-size: 20px;
+text-align: center;
+}
+.companies__carousal{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.companies__carousal__img{
+    height: 50px;
+}
+.companies__carousal__img img{
+    height: 100%;
+}
+.whyUs{
+padding: 25px 0;
+}
+.whyUs__text h2{
+    font-weight: bolder;font-size: 38px;
+    text-align: center;   
+}
+.whyUs__text-description p{
+    color: #737373;
+    font-size: 18px;
+text-align: center;
+margin-bottom: 30px;
+}
+.whyUs__card__container__text{
+    padding: 20px ;
+    width: 400px;
+}
+.whyUs__card__container__img{
+    width: 400px;
+}
+.whyUs__card__container__img img{
+    width: 100%;
+    object-fit: contain;
+}
+.whyUs__card__container {
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px;
+}
+.whyUs__card__container__text h3 {
+    text-align: center;
+    font-size: 22px;
+}
+.whyUs__card__container__text p {
+    text-align: center;
+    font-size: 18px;
+    color: #737373;
+}
+
+
+.whyUs__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
