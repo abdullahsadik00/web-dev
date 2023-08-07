@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.container{
+    margin: 30px 0; 
+    display: flex;
+    justify-content: center ;
+}
+.signUp{
+    border: 2px solid  rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+}
+.signUp__heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000E08;
+    margin: 20px 0;
+}
+.signUp__description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #797C7B;
+}
+.signUp__social{
+    display: flex;
+justify-content: center;
+margin: 20px 0;
+
+}
+.signUp__social__icon{
+    /* padding: 10px;
+    border: 1px solid black;*/ 
+    margin: 10px;border-radius: 50%; 
+align-items: center;
+border:1px solid #000E08;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+}
+.signUp__seperator {
+    position: relative;
+}
+.signUp__form{
+    margin: 60px 0;
+}
+.signUp__seperator::before,
+.signUp__seperator::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%; /* Adjust the width of the lines as needed */
+    background-color: #CDD1D0; /* Adjust the color of the lines as needed */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signUp__seperator::before {
+    left: 0;
+}
+
+.signUp__seperator::after {
+    right: 0;
+}
+.signUp__seperator span {
+    position: relative;
+    left: 47%;
+}
+input[type = email],input[type = password],input[type=text]{
+     width: 100%;
+    padding: 4px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none; 
+
+  
+}
+label{
+    color: #24786D;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.1px;
+}
+.signUp__button{
+    margin-top: 70px;
+}
+.signUp__button__create{
+    margin: 10px 0;
+}
+.signUp__button__create button{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #797C7B;
+    font-weight: 700;
+    background-color: #F3F6F6;
+    outline: none;
+}
+.signUp__button__create button:hover{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #24786D;
+}

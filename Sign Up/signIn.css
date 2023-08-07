@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.container{
+    margin: 30px 0; 
+    display: flex;
+    justify-content: center ;
+}
+.signIn{
+    border: 2px solid  rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+}
+.signIn__heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000E08;
+    margin: 20px 0;
+}
+.signIn__description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #797C7B;
+}
+.signIn__social{
+    display: flex;
+justify-content: center;
+margin: 20px 0;
+
+}
+.signIn__social__icon{
+    /* padding: 10px;
+    border: 1px solid black;*/ 
+    margin: 10px;border-radius: 50%; 
+align-items: center;
+border:1px solid #000E08;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+}
+.signIn__seperator {
+    position: relative;
+}
+.signIn__form{
+    margin: 20px 0;
+}
+.signIn__seperator::before,
+.signIn__seperator::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%; /* Adjust the width of the lines as needed */
+    background-color: #CDD1D0; /* Adjust the color of the lines as needed */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signIn__seperator::before {
+    left: 0;
+}
+
+.signIn__seperator::after {
+    right: 0;
+}
+.signIn__seperator span {
+    position: relative;
+    left: 47%;
+}
+input[type = email],input[type = password]{
+     width: 100%;
+    padding: 4px ;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none; 
+
+  
+}
+label{
+    color: #24786D;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.1px;
+}
+.signIn__button{
+    margin-top: 70px;
+}
+.signIn__button__logIn{
+    margin: 10px 0;
+}
+.signIn__button__logIn button{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #797C7B;
+    font-weight: 700;
+    background-color: #F3F6F6;
+    outline: none;
+}
+.signIn__button__logIn button:hover{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #24786D;
+}
+.signIn__button__forgot a{
+    color: #24786D;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 100% */
+letter-spacing: 0.1px;
+text-align: center;
+display: block;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: none;
+}
