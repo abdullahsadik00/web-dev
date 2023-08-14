@@ -10,51 +10,54 @@
 
 <body class="bg-slate-50	 flex justify-center items-center min-h-screen">
     <div class="bg-white text-[#181028] space-y-6 shadow-lg rounded-xl max-w-md md:max-w-lg p-10">
-
-        <!-- <img class="w-44" src="/long-light.png" /> -->
-
         <h2 class="font-semibold	text-2xl	">The Accordian</h2>
         <p class="text-lg	">The accordian is a graphical control element comprising vertically stacked list if
             items,such as label or thumbnails.Each item can be "ecpanded" or collapsed to reveal the content assosiated
             with that item.</p>
-            <div class="conatiner my-5">
-        <button class="accordion text-lg font-medium bg-white shadow-md">
-            <!-- <span class="ive rounded-full	 bg-black	text-white	p-2">+</span> -->
-            When and How it should be used</button>
-        <div class="panel">
-            <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-        </div>
+        <div class="conatiner my-5">
+            <button class="accordion text-lg font-medium bg-white shadow-md">
+                When and How it should be used</button>
+            <div class="panel">
+                <p class="text-lg">
+                <h4 class="font-semibold my-2"> When it should be used </h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit perspiciatis cupiditate
+                impedit doloribus sint. Neque corrupti sunt debitis officiis!<br> How it should be used
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit perspiciatis cupid
+                </p>
+            </div>
+            <button class="accordion cursor-pointer text-lg font-medium bg-white shadow-md my-2"> What's an
+                accordion?</button>
+            <div class="panel">
+                <p class="text-lg">
+                <h4 class="font-semibold my-2"> Show/Hide operation </h4>
+                An accordion always contains the category title, an expanded and a collapsed state, an icon
+                indicating expansion, and the spacing between them.<br> Tabbed interface
+                A list of items where exactly one item is expanded into a panel
+                </p>
+            </div>
+            <button class="accordion text-lg font-medium bg-white shadow-md  my-2  "> What if the user clicks on a
+                collapsed card while another card is open? </button>
+            <div class="panel">
+                <p class="text-lg">
+                <h4 class="font-semibold my-2"> Open card </h4> An open card will still be open for this version :)
+                </p>
+            </div>
 
-        <button class="accordion text-lg font-medium bg-white shadow-md my-2">
-            <!-- <span class="ive rounded-full	 bg-black	text-white	p-2">+</span> -->
-            When and How it should be used</button>
-        <div class="panel">
-            <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
+            <button class="accordion text-lg font-medium bg-white shadow-md  my-2">
+                How to choose an icon to indicate expansion?
+            </button>
+            <div class="panel">
+                <p class="text-lg">
+                <h4 class="font-semibold my-2"> Communicate with the Devs </h4>
+                An open discussion with the developers is a great way to discuss and update the usable icons.<br> When
+                to communicate with the Devs
+                To discuss an update, please message the respective developers and be friendly to ask whether if
+                they are able to help you out.
+                Do note: Developers are humans too.
+                Please be polite to each other
+                </p>
+            </div>
         </div>
-        <button class="accordion text-lg font-medium bg-white shadow-md  my-2">
-            <!-- <span class="ive rounded-full	 bg-black	text-white	p-2">+</span> -->
-            When and How it should be used</button>
-        <div class="panel">
-            <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.</p>
-        </div>
-    </div>  
-        <!-- <p class="text-lg">Complete the challenge by converting the design (bottom-right) into HTML/CSS.</p>
-        <p class="flex gap-2 font-medium text-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" stroke-width="3"
-                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M5 12l5 5l10 -10"></path>
-            </svg>
-
-            Bonus points for adding animations and JavaScript to add interactivity! 😎
-        </p>
-        <p class="text-sm border-t pt-6">This example uses TailwindCSS by adding the CDN in the head tag.</p> -->
     </div>
     <script>
         let accordian = document.getElementsByClassName("accordion");
