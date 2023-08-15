@@ -1,7 +1,16 @@
-.bg-purple-950{
+.bg-violet-950{
     background-color: #170a42;
 }
 
 .bg-white{
     background-color: #220f61;
+}
+.bg-violet-800{
+    background-color: #220f61;
+}
+.bg-violet-100{
+    background-color: #1c0958;
+}
+.bg-black{
+    background-color: #e015ed;
 }
