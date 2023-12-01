@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- - html - 5 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Heading tag -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam,
+      et laboriosam facilis, cumque sit, soluta molestias omnis ullam sunt
+      obcaecati unde at. Corrupti quae ut delectus ratione, nisi porro.
+    </p>
+    <p>H <sub>2</sub>O</p>
+    <p>CaSO<sub>4</sub></p>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit <b> amet consectetur adipisicing </b> elit. Rem quae
+      quis ipsa repellendus nesciunt quas fuga vel quibusdam vitae ullam?
+      Placeat voluptate illo cupiditate earum quisquam optio quam ratione ex?
+    </p>
+
+    <p>
+      Mathematical Formula x<sup>2</sup> + y<sup>2</sup> + 2xy <br />
+      (x+y)<sup>2</sup>
+    </p>
+    <hr />
+    <p>Lorem ipsum <i> dolor sit </i>amet.</p>
+
+    <!-- List -->
+
+    <!-- unordered list -->
+
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <!-- ordered list -->
+
+    <hr />
+
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!-- Image tag -->
+
+    <img
+      src="https://vz-53036e60-5d9.b-cdn.net/e32951b3-f674-49ba-8f6c-3d9d50a9f02e/preview.webp"
+      alt="html"
+    />
+
+    <!-- Anchor tag -->
+
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+  </body>
+</html>
